@@ -1,17 +1,16 @@
 # src/train_classifier.py
-# Fine-tune roberta-base on processed GoEmotions 7-label dataset using HuggingFace Trainer
+# Fine-tune roberta-base on processed GoEmotions 7-label dataset using HuggingFace Trainer (CPU-only)
 
-import os
-from datasets import load_from_disk, Dataset
 import pandas as pd
+import torch
+from torch.nn import CrossEntropyLoss
+from datasets import Dataset
 from transformers import (
     AutoTokenizer,
     AutoModelForSequenceClassification,
     TrainingArguments,
     Trainer,
 )
-import torch
-from torch.nn import CrossEntropyLoss
 from sklearn.metrics import accuracy_score, f1_score
 from pathlib import Path
 from labelmap import EMOTIONS
@@ -40,37 +39,32 @@ def compute_metrics(eval_pred):
     return {"accuracy": acc, "f1_macro": f1}
 
 
-# ------------------------------------------------------
-# CUSTOM WEIGHTED TRAINER — FIXED VERSION
-# ------------------------------------------------------
+# -------------------------------
+# Weighted Trainer for CPU
+# -------------------------------
 class WeightedTrainer(Trainer):
     def __init__(self, class_weights=None, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.class_weights = class_weights
 
-    # IMPORTANT: NO num_items_in_batch argument (= fixes error)
-    def compute_loss(self, model, inputs, return_outputs=False):
-
-        labels = inputs["labels"]  # HuggingFace ALWAYS gives "labels"
+    # accepts extra kwargs to avoid errors
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
+        labels = inputs["labels"]
         outputs = model(
             input_ids=inputs["input_ids"],
             attention_mask=inputs["attention_mask"],
-            labels=None,  # we compute loss manually
+            labels=None,  # compute loss manually
         )
-
         logits = outputs.logits
 
-        # Move weights to correct device
+        # Move class weights to same device as logits
         cw = self.class_weights.to(logits.device)
-
         loss_fct = CrossEntropyLoss(weight=cw)
         loss = loss_fct(logits, labels)
-
         return (loss, outputs) if return_outputs else loss
 
 
 def main():
-
     # ensure output folder exists
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
@@ -79,7 +73,9 @@ def main():
         MODEL_NAME, num_labels=len(EMOTIONS)
     )
 
-    # Load data
+    # -------------------------------
+    # Load datasets
+    # -------------------------------
     train_ds = load_dataset_from_parquet(
         "data/processed/goemotions_train_7labels.parquet"
     )
@@ -95,22 +91,19 @@ def main():
     train_ds = train_ds.remove_columns(["text"])
     val_ds = val_ds.remove_columns(["text"])
 
-    # HuggingFace requires **labels** field, not "label"
+    # rename label column
     train_ds = train_ds.rename_column("label", "labels")
     val_ds = val_ds.rename_column("label", "labels")
 
     # correct PyTorch formatting
-    train_ds.set_format(
-        type="torch", columns=["input_ids", "attention_mask", "labels"]
-    )
+    train_ds.set_format(type="torch", columns=["input_ids", "attention_mask", "labels"])
     val_ds.set_format(type="torch", columns=["input_ids", "attention_mask", "labels"])
 
-    # ------------------------------------------------
-    # COMPUTE CLASS WEIGHTS
-    # ------------------------------------------------
+    # -------------------------------
+    # Compute class weights
+    # -------------------------------
     labels = torch.tensor(train_ds["labels"])
     num_classes = len(EMOTIONS)
-
     class_counts = torch.bincount(labels, minlength=num_classes)
     class_weights = 1.0 / class_counts.float()
     class_weights = class_weights / class_weights.sum() * num_classes  # normalize
@@ -119,9 +112,9 @@ def main():
     for lbl, w in zip(EMOTIONS, class_weights):
         print(f"{lbl}: {w:.4f}")
 
-    # ------------------------------------------------
-    # TRAINING SETUP
-    # ------------------------------------------------
+    # -------------------------------
+    # Training arguments (CPU)
+    # -------------------------------
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
         per_device_train_batch_size=16,
@@ -134,12 +127,12 @@ def main():
         load_best_model_at_end=True,
         metric_for_best_model="f1_macro",
         logging_steps=200,
-        fp16=torch.cuda.is_available(),  # safe
+        fp16=False,  # CPU only
     )
 
-    # ------------------------------------------------
-    # USE WEIGHTED TRAINER
-    # ------------------------------------------------
+    # -------------------------------
+    # Initialize trainer
+    # -------------------------------
     trainer = WeightedTrainer(
         model=model,
         args=training_args,
@@ -150,8 +143,10 @@ def main():
         class_weights=class_weights,
     )
 
+    # Train
     trainer.train()
 
+    # Save model and tokenizer
     trainer.save_model(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)
     model.config.save_pretrained(OUTPUT_DIR)
