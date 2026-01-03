@@ -1,0 +1,13 @@
+Accuracy      : 0.6534
+Macro F1      : 0.6114
+Weighted F1   : 0.6570
+Top-3 Acc     : 0.9528
+Top-5 Acc     : 0.9924
+
+joy     : 0.7819
+anger   : 0.6094
+sadness : 0.5668
+fear    : 0.5126
+love    : 0.6808
+surprise: 0.5442
+neutral : 0.5840

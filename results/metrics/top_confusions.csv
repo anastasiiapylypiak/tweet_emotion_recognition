@@ -1,0 +1,11 @@
+error_type,0
+neutral → anger,272
+neutral → joy,225
+joy → neutral,183
+neutral → surprise,135
+neutral → sadness,87
+joy → surprise,84
+anger → neutral,84
+neutral → fear,81
+joy → love,80
+joy → anger,78
