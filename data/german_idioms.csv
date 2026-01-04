@@ -1,0 +1,113 @@
+text,true_emotion,category
+"Ich verstehe nur Bahnhof.",surprise,idiom
+"Da steppt der Bär!",joy,idiom
+"Das ist mir Wurst.",neutral,idiom
+"Du gehst mir auf den Keks.",anger,idiom
+"Jetzt haben wir den Salat.",sadness,idiom
+"Ich drücke dir die Daumen.",joy,idiom
+"Da liegt der Hund begraben.",sadness,idiom
+"Tomaten auf den Augen haben.",surprise,idiom
+"Bock haben",joy,colloquial
+"Auf Wolke sieben schweben",joy,metaphor
+"Mit dem Kopf durch die Wand",anger,metaphor
+"Alles in Butter",joy,idiom
+"Den Teufel an die Wand malen",fear,idiom
+"Hals- und Beinbruch!",joy,idiom
+"Ein Auge zudrücken",neutral,idiom
+"Nicht alle Tassen im Schrank haben",surprise,colloquial
+"Jemandem einen Bären aufbinden",surprise,idiom
+"Die Kirche im Dorf lassen",neutral,idiom
+"Kalte Füße bekommen",fear,idiom
+"Das Kind beim Schopfe packen",joy,idiom
+"Schwein haben",joy,idiom
+"Ins Fettnäpfchen treten",embarrassment,idiom
+"Die Nase voll haben",anger,idiom
+"Etwas auf die lange Bank schieben",neutral,idiom
+"Die Spreu vom Weizen trennen",neutral,idiom
+"Perlen vor die Säue werfen",sadness,idiom
+"Auf dem Holzweg sein",confusion,idiom
+"Die Katze im Sack kaufen",fear,idiom
+"Alles auf eine Karte setzen",fear,idiom
+"Die Flinte ins Korn werfen",sadness,idiom
+"Den Nagel auf den Kopf treffen",joy,idiom
+"Über den Tellerrand schauen",joy,metaphor
+"Jemandem den Laufpass geben",anger,idiom
+"Ein Brett vor dem Kopf haben",confusion,idiom
+"Mit allen Wassern gewaschen",joy,idiom
+"Das Handtuch werfen",sadness,idiom
+"Die Zähne zusammenbeißen",fear,idiom
+"Da liegt was im Argen",fear,idiom
+"Die Daumen drücken",joy,idiom
+"Aus dem Nähkästchen plaudern",joy,idiom
+"Alles unter einen Hut bringen",neutral,idiom
+"Die Ohren spitzen",surprise,idiom
+"Jemanden um den Finger wickeln",joy,idiom
+"Auf die Pauke hauen",anger,idiom
+"Den Teufel tun",anger,idiom
+"Ins Gras beißen",sadness,idiom
+"Die Kirche im Dorf lassen",neutral,idiom
+"Ein Tropfen auf den heißen Stein",sadness,idiom
+"Auf dem Zahnfleisch gehen",sadness,idiom
+"Ein Wolf im Schafspelz",fear,idiom
+"Die Kuh vom Eis holen",joy,idiom
+"Ins kalte Wasser springen",fear,idiom
+"Die Flügel strecken",joy,idiom
+"Die Korken knallen lassen",joy,idiom
+"Die Suppe auslöffeln",sadness,idiom
+"Die Karten auf den Tisch legen",neutral,idiom
+"Den Faden verlieren",confusion,idiom
+"Auf Wolke sieben schweben",joy,metaphor
+"Jemandem die Daumen drücken",joy,idiom
+"Mit harten Bandagen kämpfen",anger,idiom
+"Die Nase vorn haben",joy,idiom
+"Den Gürtel enger schnallen",fear,idiom
+"Die Faust in der Tasche ballen",anger,idiom
+"Die Zeit totschlagen",neutral,idiom
+"Den Teufel an die Wand malen",fear,idiom
+"Auf dem Schlauch stehen",confusion,idiom
+"Die Katze aus dem Sack lassen",joy,idiom
+"Den Bock zum Gärtner machen",confusion,idiom
+"Mit Kanonen auf Spatzen schießen",anger,idiom
+"Jemandem Honig ums Maul schmieren",joy,idiom
+"Die Hände in den Schoß legen",neutral,idiom
+"Ins Fettnäpfchen treten",embarrassment,idiom
+"Die Kuh vom Eis holen",joy,idiom
+"Die Spreu vom Weizen trennen",neutral,idiom
+"Auf die schiefe Bahn geraten",sadness,idiom
+"Jemanden auf die Palme bringen",anger,idiom
+"Den Stein ins Rollen bringen",joy,idiom
+"Die Kirche im Dorf lassen",neutral,idiom
+"Ein Haar in der Suppe finden",anger,idiom
+"Die Daumen drücken",joy,idiom
+"Das ist nicht das Gelbe vom Ei",anger,idiom
+"Das Handtuch werfen",sadness,idiom
+"Auf großem Fuß leben",joy,idiom
+"Die Katze im Sack kaufen",fear,idiom
+"Die Flinte ins Korn werfen",sadness,idiom
+"Jemandem einen Bären aufbinden",surprise,idiom
+"Nicht alle Tassen im Schrank haben",surprise,colloquial
+"Etwas auf die lange Bank schieben",neutral,idiom
+"Mit allen Wassern gewaschen",joy,idiom
+"Den Nagel auf den Kopf treffen",joy,idiom
+"Über den Tellerrand schauen",joy,metaphor
+"Mit dem Kopf durch die Wand",anger,metaphor
+"Alles in Butter",joy,idiom
+"Ein Auge zudrücken",neutral,idiom
+"Schwein haben",joy,idiom
+"Die Nase voll haben",anger,idiom
+"Ins kalte Wasser springen",fear,idiom
+"Die Zähne zusammenbeißen",fear,idiom
+"Die Flügel strecken",joy,idiom
+"Die Suppe auslöffeln",sadness,idiom
+"Die Karten auf den Tisch legen",neutral,idiom
+"Jemandem Honig ums Maul schmieren",joy,idiom
+"Auf die Pauke hauen",anger,idiom
+"Den Faden verlieren",confusion,idiom
+"Die Faust in der Tasche ballen",anger,idiom
+"Ein Wolf im Schafspelz",fear,idiom
+"Auf dem Zahnfleisch gehen",sadness,idiom
+"Den Gürtel enger schnallen",fear,idiom
+"Die Hände in den Schoß legen",neutral,idiom
+"Die Ohren spitzen",surprise,idiom
+"Die Zeit totschlagen",neutral,idiom
+"Die Korken knallen lassen",joy,idiom

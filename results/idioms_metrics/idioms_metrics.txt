@@ -1,0 +1,12 @@
+Accuracy: 0.1731
+Macro F1: 0.0668
+Weighted F1: 0.0644
+
+F1 per class:
+joy      : 0.0000
+anger    : 0.1176
+sadness  : 0.0000
+fear     : 0.0000
+love     : 0.0000
+surprise : 0.0000
+neutral  : 0.2833
