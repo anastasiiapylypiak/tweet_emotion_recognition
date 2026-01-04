@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d4d1995-7a67-4bd6-a833-fae4bfe46a8d" name="Changes" comment="evaluation results improved">
-      <change afterPath="$PROJECT_DIR$/data/german_idioms.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idioms_evaluation.py" afterDir="false" />
+    <list default="true" id="1d4d1995-7a67-4bd6-a833-fae4bfe46a8d" name="Changes" comment="German idioms added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767443151546</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="German idioms added">
+      <option name="closed" value="true" />
+      <created>1767526268381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767526268382</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +300,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="trained model" />
     <MESSAGE value="evaluation results improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="evaluation results improved" />
+    <MESSAGE value="German idioms added" />
+    <option name="LAST_COMMIT_MESSAGE" value="German idioms added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
