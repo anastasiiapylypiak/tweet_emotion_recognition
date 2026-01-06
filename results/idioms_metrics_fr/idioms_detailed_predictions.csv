@@ -1,0 +1,103 @@
+text,true_emotion,pred_label,pred_emotion,correct,confidence,category
+Ça va être la fête !,joy,6,neutral,False,0.9467013478279114,colloquial
+Ça m’est égal.,neutral,6,neutral,True,0.9061131477355957,idiom
+Tu me casses les pieds.,anger,6,neutral,False,0.9192436933517456,idiom
+On est dans le pétrin.,sadness,6,neutral,False,0.9461047053337097,idiom
+Je croise les doigts pour toi.,joy,6,neutral,False,0.9338672161102295,idiom
+C’est là que le bât blesse.,sadness,6,neutral,False,0.8899129629135132,idiom
+J’ai trop envie.,joy,6,neutral,False,0.9274720549583435,colloquial
+Être sur un petit nuage.,joy,6,neutral,False,0.9512494802474976,metaphor
+Foncer tête baissée.,anger,6,neutral,False,0.9428104758262634,metaphor
+Tout roule.,joy,6,neutral,False,0.9458422660827637,idiom
+Voir le mal partout.,fear,6,neutral,False,0.9316214323043823,idiom
+Bonne chance !,joy,6,neutral,False,0.757108211517334,idiom
+Fermer les yeux.,neutral,6,neutral,True,0.9314619898796082,idiom
+Il n’a pas inventé l’eau chaude.,surprise,6,neutral,False,0.818168044090271,colloquial
+Raconter des salades.,surprise,6,neutral,False,0.9445878863334656,idiom
+Faut pas pousser mémé dans les orties.,neutral,6,neutral,True,0.7981664538383484,idiom
+Avoir la trouille.,fear,6,neutral,False,0.9307852387428284,colloquial
+Saisir sa chance.,joy,6,neutral,False,0.900321900844574,idiom
+Avoir du bol.,joy,6,neutral,False,0.950355052947998,idiom
+En avoir marre.,anger,6,neutral,False,0.8784072995185852,idiom
+Remettre à plus tard.,neutral,6,neutral,True,0.9368466138839722,idiom
+Faire le tri.,neutral,6,neutral,True,0.9249259829521179,idiom
+Jeter de la confiture aux cochons.,sadness,6,neutral,False,0.9486081004142761,idiom
+Acheter chat en poche.,fear,6,neutral,False,0.9442769289016724,idiom
+Mettre tous ses œufs dans le même panier.,fear,6,neutral,False,0.9331338405609131,idiom
+Baisser les bras.,sadness,6,neutral,False,0.9420269727706909,idiom
+Mettre le doigt dessus.,joy,6,neutral,False,0.9432241916656494,idiom
+Voir plus loin que le bout de son nez.,joy,6,neutral,False,0.92574542760849,metaphor
+Donner son congé à quelqu’un.,anger,6,neutral,False,0.9500353336334229,idiom
+Être rusé comme un renard.,joy,6,neutral,False,0.9270573258399963,idiom
+Jeter l’éponge.,sadness,6,neutral,False,0.9503218531608582,idiom
+Prendre sur soi.,fear,6,neutral,False,0.9402992725372314,idiom
+Il y a anguille sous roche.,fear,6,neutral,False,0.9120106101036072,idiom
+Croiser les doigts.,joy,6,neutral,False,0.9262529611587524,idiom
+Raconter sa vie.,joy,6,neutral,False,0.9433408975601196,colloquial
+Tout concilier.,neutral,6,neutral,True,0.9220369458198547,idiom
+Tendre l’oreille.,surprise,6,neutral,False,0.9256528615951538,idiom
+Tourner quelqu’un autour de son petit doigt.,joy,6,neutral,False,0.9389374256134033,idiom
+Faire un scandale.,anger,6,neutral,False,0.9392436146736145,idiom
+Tu peux toujours rêver.,anger,6,neutral,False,0.9351996183395386,colloquial
+Passer l’arme à gauche.,sadness,6,neutral,False,0.9422415494918823,idiom
+Faut pas exagérer.,neutral,6,neutral,True,0.749342679977417,colloquial
+Une goutte d’eau dans l’océan.,sadness,6,neutral,False,0.9208397269248962,idiom
+Être sur les rotules.,sadness,6,neutral,False,0.9477863907814026,idiom
+Un loup dans la bergerie.,fear,6,neutral,False,0.9073640704154968,idiom
+Se tirer d’affaire.,joy,6,neutral,False,0.8840929269790649,idiom
+Plonger dans le grand bain.,fear,6,neutral,False,0.9538962841033936,idiom
+Prendre son envol.,joy,6,neutral,False,0.9326732754707336,metaphor
+Faire sauter le champagne.,joy,6,neutral,False,0.8976173996925354,idiom
+Assumer les conséquences.,sadness,6,neutral,False,0.9527144432067871,idiom
+Mettre cartes sur table.,neutral,6,neutral,True,0.9548940658569336,idiom
+Être sur un petit nuage.,joy,6,neutral,False,0.9512494802474976,metaphor
+Croiser les doigts pour quelqu’un.,joy,6,neutral,False,0.9204577207565308,idiom
+Se battre avec acharnement.,anger,6,neutral,False,0.9350907802581787,idiom
+Avoir une longueur d’avance.,joy,6,neutral,False,0.9122133255004883,idiom
+Se serrer la ceinture.,fear,6,neutral,False,0.9384055733680725,idiom
+Serrer les poings dans sa poche.,anger,6,neutral,False,0.9428611993789673,idiom
+Tuer le temps.,neutral,6,neutral,True,0.9502472877502441,idiom
+Se faire des idées noires.,fear,6,neutral,False,0.9286614060401917,idiom
+Vendre la mèche.,surprise,6,neutral,False,0.9321342706680298,idiom
+Tirer au bazooka sur une mouche.,anger,6,neutral,False,0.9343740940093994,metaphor
+Passer de la pommade.,joy,6,neutral,False,0.9391958713531494,idiom
+Rester les bras croisés.,neutral,6,neutral,True,0.9211881160736084,idiom
+Se tirer d’affaire.,joy,6,neutral,False,0.8840929269790649,idiom
+Faire le tri.,neutral,6,neutral,True,0.9249259829521179,idiom
+Partir à la dérive.,sadness,6,neutral,False,0.9420700073242188,idiom
+Mettre quelqu’un hors de lui.,anger,6,neutral,False,0.941960334777832,idiom
+Lancer la machine.,joy,6,neutral,False,0.9216840863227844,idiom
+Faut pas pousser mémé dans les orties.,neutral,6,neutral,True,0.7981664538383484,idiom
+Trouver la petite bête.,anger,6,neutral,False,0.9010676145553589,idiom
+Croiser les doigts.,joy,6,neutral,False,0.9262529611587524,idiom
+Ce n’est pas la mer à boire.,anger,6,neutral,False,0.8403266668319702,idiom
+Jeter l’éponge.,sadness,6,neutral,False,0.9503218531608582,idiom
+Vivre au-dessus de ses moyens.,joy,6,neutral,False,0.9279981851577759,idiom
+Acheter chat en poche.,fear,6,neutral,False,0.9442769289016724,idiom
+Baisser les bras.,sadness,6,neutral,False,0.9420269727706909,idiom
+Raconter des salades.,surprise,6,neutral,False,0.9445878863334656,idiom
+Il n’a pas inventé l’eau chaude.,surprise,6,neutral,False,0.818168044090271,colloquial
+Remettre à plus tard.,neutral,6,neutral,True,0.9368466138839722,idiom
+Être rusé comme un renard.,joy,6,neutral,False,0.9270573258399963,idiom
+Mettre le doigt dessus.,joy,6,neutral,False,0.9432241916656494,idiom
+Voir plus loin que le bout de son nez.,joy,6,neutral,False,0.92574542760849,metaphor
+Foncer tête baissée.,anger,6,neutral,False,0.9428104758262634,metaphor
+Tout roule.,joy,6,neutral,False,0.9458422660827637,idiom
+Fermer les yeux.,neutral,6,neutral,True,0.9314619898796082,idiom
+Avoir du bol.,joy,6,neutral,False,0.950355052947998,idiom
+En avoir marre.,anger,6,neutral,False,0.8784072995185852,idiom
+Plonger dans le grand bain.,fear,6,neutral,False,0.9538962841033936,idiom
+Prendre sur soi.,fear,6,neutral,False,0.9402992725372314,idiom
+Prendre son envol.,joy,6,neutral,False,0.9326732754707336,metaphor
+Assumer les conséquences.,sadness,6,neutral,False,0.9527144432067871,idiom
+Mettre cartes sur table.,neutral,6,neutral,True,0.9548940658569336,idiom
+Passer de la pommade.,joy,6,neutral,False,0.9391958713531494,idiom
+Faire un scandale.,anger,6,neutral,False,0.9392436146736145,idiom
+Serrer les poings dans sa poche.,anger,6,neutral,False,0.9428611993789673,idiom
+Un loup dans la bergerie.,fear,6,neutral,False,0.9073640704154968,idiom
+Être sur les rotules.,sadness,6,neutral,False,0.947786271572113,idiom
+Se serrer la ceinture.,fear,6,neutral,False,0.9384055733680725,idiom
+Rester les bras croisés.,neutral,6,neutral,True,0.9211879968643188,idiom
+Tendre l’oreille.,surprise,6,neutral,False,0.9256529808044434,idiom
+Tuer le temps.,neutral,6,neutral,True,0.9502472877502441,idiom
+Faire sauter le champagne.,joy,6,neutral,False,0.8976173996925354,idiom

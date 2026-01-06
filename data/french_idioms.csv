@@ -1,0 +1,113 @@
+text,true_emotion,category
+"Je n’y comprends rien.",confusion,idiom
+"Ça va être la fête !",joy,colloquial
+"Ça m’est égal.",neutral,idiom
+"Tu me casses les pieds.",anger,idiom
+"On est dans le pétrin.",sadness,idiom
+"Je croise les doigts pour toi.",joy,idiom
+"C’est là que le bât blesse.",sadness,idiom
+"Avoir des œillères.",confusion,idiom
+"J’ai trop envie.",joy,colloquial
+"Être sur un petit nuage.",joy,metaphor
+"Foncer tête baissée.",anger,metaphor
+"Tout roule.",joy,idiom
+"Voir le mal partout.",fear,idiom
+"Bonne chance !",joy,idiom
+"Fermer les yeux.",neutral,idiom
+"Il n’a pas inventé l’eau chaude.",surprise,colloquial
+"Raconter des salades.",surprise,idiom
+"Faut pas pousser mémé dans les orties.",neutral,idiom
+"Avoir la trouille.",fear,colloquial
+"Saisir sa chance.",joy,idiom
+"Avoir du bol.",joy,idiom
+"Mettre les pieds dans le plat.",embarrassment,idiom
+"En avoir marre.",anger,idiom
+"Remettre à plus tard.",neutral,idiom
+"Faire le tri.",neutral,idiom
+"Jeter de la confiture aux cochons.",sadness,idiom
+"Faire fausse route.",confusion,idiom
+"Acheter chat en poche.",fear,idiom
+"Mettre tous ses œufs dans le même panier.",fear,idiom
+"Baisser les bras.",sadness,idiom
+"Mettre le doigt dessus.",joy,idiom
+"Voir plus loin que le bout de son nez.",joy,metaphor
+"Donner son congé à quelqu’un.",anger,idiom
+"Avoir un poil dans la main.",confusion,idiom
+"Être rusé comme un renard.",joy,idiom
+"Jeter l’éponge.",sadness,idiom
+"Prendre sur soi.",fear,idiom
+"Il y a anguille sous roche.",fear,idiom
+"Croiser les doigts.",joy,idiom
+"Raconter sa vie.",joy,colloquial
+"Tout concilier.",neutral,idiom
+"Tendre l’oreille.",surprise,idiom
+"Tourner quelqu’un autour de son petit doigt.",joy,idiom
+"Faire un scandale.",anger,idiom
+"Tu peux toujours rêver.",anger,colloquial
+"Passer l’arme à gauche.",sadness,idiom
+"Faut pas exagérer.",neutral,colloquial
+"Une goutte d’eau dans l’océan.",sadness,idiom
+"Être sur les rotules.",sadness,idiom
+"Un loup dans la bergerie.",fear,idiom
+"Se tirer d’affaire.",joy,idiom
+"Plonger dans le grand bain.",fear,idiom
+"Prendre son envol.",joy,metaphor
+"Faire sauter le champagne.",joy,idiom
+"Assumer les conséquences.",sadness,idiom
+"Mettre cartes sur table.",neutral,idiom
+"Perdre le fil.",confusion,idiom
+"Être sur un petit nuage.",joy,metaphor
+"Croiser les doigts pour quelqu’un.",joy,idiom
+"Se battre avec acharnement.",anger,idiom
+"Avoir une longueur d’avance.",joy,idiom
+"Se serrer la ceinture.",fear,idiom
+"Serrer les poings dans sa poche.",anger,idiom
+"Tuer le temps.",neutral,idiom
+"Se faire des idées noires.",fear,idiom
+"Être à côté de la plaque.",confusion,colloquial
+"Vendre la mèche.",surprise,idiom
+"Confier le poste au pire candidat.",confusion,idiom
+"Tirer au bazooka sur une mouche.",anger,metaphor
+"Passer de la pommade.",joy,idiom
+"Rester les bras croisés.",neutral,idiom
+"Mettre les pieds dans le plat.",embarrassment,idiom
+"Se tirer d’affaire.",joy,idiom
+"Faire le tri.",neutral,idiom
+"Partir à la dérive.",sadness,idiom
+"Mettre quelqu’un hors de lui.",anger,idiom
+"Lancer la machine.",joy,idiom
+"Faut pas pousser mémé dans les orties.",neutral,idiom
+"Trouver la petite bête.",anger,idiom
+"Croiser les doigts.",joy,idiom
+"Ce n’est pas la mer à boire.",anger,idiom
+"Jeter l’éponge.",sadness,idiom
+"Vivre au-dessus de ses moyens.",joy,idiom
+"Acheter chat en poche.",fear,idiom
+"Baisser les bras.",sadness,idiom
+"Raconter des salades.",surprise,idiom
+"Il n’a pas inventé l’eau chaude.",surprise,colloquial
+"Remettre à plus tard.",neutral,idiom
+"Être rusé comme un renard.",joy,idiom
+"Mettre le doigt dessus.",joy,idiom
+"Voir plus loin que le bout de son nez.",joy,metaphor
+"Foncer tête baissée.",anger,metaphor
+"Tout roule.",joy,idiom
+"Fermer les yeux.",neutral,idiom
+"Avoir du bol.",joy,idiom
+"En avoir marre.",anger,idiom
+"Plonger dans le grand bain.",fear,idiom
+"Prendre sur soi.",fear,idiom
+"Prendre son envol.",joy,metaphor
+"Assumer les conséquences.",sadness,idiom
+"Mettre cartes sur table.",neutral,idiom
+"Passer de la pommade.",joy,idiom
+"Faire un scandale.",anger,idiom
+"Perdre le fil.",confusion,idiom
+"Serrer les poings dans sa poche.",anger,idiom
+"Un loup dans la bergerie.",fear,idiom
+"Être sur les rotules.",sadness,idiom
+"Se serrer la ceinture.",fear,idiom
+"Rester les bras croisés.",neutral,idiom
+"Tendre l’oreille.",surprise,idiom
+"Tuer le temps.",neutral,idiom
+"Faire sauter le champagne.",joy,idiom
